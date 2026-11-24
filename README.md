@@ -12,6 +12,13 @@ Build iteratively. Each new row starts and ends with 1; entry j is `prev[j-1] + 
 
 **Complexity:** O(n²) time and space — that is the size of the output itself.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
